@@ -23,3 +23,42 @@ h1 {
 li {
   list-style: none;
 }
+
+.nav-links {
+  width: 100%;
+  left: 48px;
+  display: none;
+  margin: 0;
+}
+
+.nav-links a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  color: gray;
+}
+
+.expanded {
+  display: unset;
+}
+
+@media screen and (min-width: 636px) {
+  .nav-links {
+    display: block;
+    position: static;
+    width: auto;
+    background: none;
+  }
+
+  .nav-links a {
+    display: inline-block;
+    padding: 15px 20px;
+  }
+}
