@@ -24,6 +24,19 @@ li {
   list-style: none;
 }
 
+.hamburger {
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.hamburger .line {
+  display: block;
+  width: 50px;
+  height: 1px;
+  margin-bottom: 10px;
+  background-color: #333;
+}
+
 .nav-links {
   width: 100%;
   left: 48px;
@@ -60,5 +73,9 @@ li {
   .nav-links a {
     display: inline-block;
     padding: 15px 20px;
+  }
+
+  .hamburger {
+    display: none;
   }
 }

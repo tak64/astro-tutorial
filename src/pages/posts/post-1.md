@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/markdownPostLayout.astro
 title: "My first post"
 pubDate: 2025-08-21
 description: "This is my first post about learning Astro.js"
@@ -8,10 +9,6 @@ image:
   alt: "The logo of Astro"
 tags: ["astro", "Blog", "Public Learning"]
 ---
-
-# My first Post
-
-Published on: 2022-07-01
 
 Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
 
